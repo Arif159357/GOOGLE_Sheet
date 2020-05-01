@@ -14,7 +14,7 @@
 const { google } = require("googleapis");
 // const GoogleSpreadsheet = require("google-spreadsheet");
 // const { promisify } = require("util");
-const keys = require("./1.json");
+const keys = require("./");
 
 const client = new google.auth.JWT(keys.client_email, null, keys.private_key, [
   "https://www.googleapis.com/auth/spreadsheets.readonly",
