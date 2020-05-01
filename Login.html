@@ -1,40 +1,62 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
-    <link rel="stylesheet" href="logincss.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="logincss.css" />
     <title>Hello, world!</title>
   </head>
   <body>
-     <div id="login">
-        <h3 class="text-center text-white pt-5">Please Enter Your Phone Number</h3>
-        <div class="container">
-            <div id="login-row" class="row justify-content-center align-items-center">
-                <div id="login-column" class="col-md-6">
-                    <div id="login-box" class="col-md-2">
-                        <form id="login-form" class="form" action="https://docs.google.com/spreadsheets/d/1YPRh0SZzl9pHKf4EX43nD1CyPCSrUtKd5mewTCJHJLA/edit#gid=0" method="post">
-                            <div class="form-group">
-                                <label  class="text-info">Phone Number:</label><br>
-                                <input type="number" size="11" id="phone-num" class="form-control" required>
-                            </div>
-                            <input type="submit" name="submit" id="subbtn" class="btn btn-info btn-md" value="submit">
-                        </form>
-                    </div>
+    <div id="login">
+      <h3 class="text-center text-white pt-5">
+        Please Enter Your Phone Number
+      </h3>
+      <div class="container">
+        <div
+          id="login-row"
+          class="row justify-content-center align-items-center"
+        >
+          <div id="login-column" class="col-md-6">
+            <div id="login-box" class="col-md-2">
+              <form id="login-form" class="form" action="" method="post">
+                <div class="form-group">
+                  <label class="text-info">Phone Number:</label><br />
+                  <input
+                    type="number"
+                    id="phone-num"
+                    class="form-control"
+                    required
+                  />
                 </div>
+                <input
+                  type="button"
+                  name="submit"
+                  id="subbtn"
+                  class="btn btn-info btn-md"
+                  value="submit"
+                />
+              </form>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"> </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
-    
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
+    <!-- <script src="./googleSpreadsheet.js"></script> -->
+  </body>
 </html>
